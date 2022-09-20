@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.square {
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 23px;
+  height: 23px;
+}
+
+button {
+  margin: 0 auto;
+  background-color: blueviolet;
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 1px 2px black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(137, 43, 226, 0.733);
+}
+
+button:active {
+  background-color: rgba(137, 43, 226, 0.733);
+  transform: translateY(1px);
+  box-shadow: 1px 1px;
+}
